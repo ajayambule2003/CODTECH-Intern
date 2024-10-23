@@ -1,4 +1,4 @@
-// script.js
+
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('contactForm');
   
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Thank you for your message!');
         form.reset();
       } else {
-        alert('Please fill in all fields.');
+        alert('Please fill in all fields.');   
       }
     });
   });
